@@ -1,4 +1,5 @@
 import  React  from "react";
+import  UseState  from "./Components/UseState"
 
 function App() {
   var [numbers,setNumbers] = React.useState("red")
@@ -9,7 +10,10 @@ function App() {
      <button type = "button" onClick = {()=>setNumbers("blue")}>Blue</button>
      <button type = "button" onClick = {()=>setNumbers("red")}>Red</button>
      <button type = "button" onClick = {()=>setNumbers("yellow")}>Yellow</button>
+    <UseState />
+
     </div>
+    
   );
 }
 
