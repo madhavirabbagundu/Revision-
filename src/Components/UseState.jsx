@@ -9,7 +9,7 @@ const UseState=(()=>{
         return(
             <>
 <h1> this is the usestate page</h1>
-<h2>i am {name}. I am bron and brought in thaticherla. my date of birth is {year} and my qualification is {study}</h2>
+<h2>i am {year}. I am bron and brought in thaticherla. my date of birth is {year} and my qualification is {study}</h2>
 
 </>
 )
