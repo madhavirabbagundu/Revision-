@@ -1,6 +1,7 @@
 import  React  from "react";
 import  UseState  from "./Components/UseState"
 import  { UseEffect1 } from "./Components/UseEffect1";
+import Api from './Components/Api'
 import Effect2 from './Components/Effect2'
 function App() {
   var [numbers,setNumbers] = React.useState("red")
@@ -14,6 +15,7 @@ function App() {
     <UseState />
     <UseEffect1 />
     <Effect2/>
+    <Api />
     </div>
     
   );

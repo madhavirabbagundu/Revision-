@@ -1,0 +1,52 @@
+{
+    "hotel":[
+        {
+            "name":"masai9",
+            "price":200,
+            "stars":5,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai8",
+            "price":42000,
+            "stars":5,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai7",
+            "price":8000,
+            "stars":5,
+            "about":"this is good company"
+        },
+        {
+            "name":"masa6i",
+            "price":1000,
+            "stars":0,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai5",
+            "price":3000,
+            "stars":1,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai34",
+            "price":2000,
+            "stars":2,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai2",
+            "price":1000,
+            "stars":3,
+            "about":"this is good company"
+        },
+        {
+            "name":"masai1",
+            "price":7000,
+            "stars":4,
+            "about":"this is bad company"
+        }
+    ]
+}
