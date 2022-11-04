@@ -4,6 +4,9 @@ import  { UseEffect1 } from "./Components/UseEffect1";
 import Api from './Components/Api'
 import Ref from './Components/Ref'
 import Effect2 from './Components/Effect2'
+import RefName from "./Components/RefName";
+import { ContextReact } from "./Components/ContextReact";
+import { ContextReact1 } from './Components/ContextReact1'
 function App() {
   var [numbers,setNumbers] = React.useState("red")
   return (
@@ -13,11 +16,14 @@ function App() {
      <button type = "button" onClick = {()=>setNumbers("blue")}>Blue</button>
      <button type = "button" onClick = {()=>setNumbers("red")}>Red</button>
      <button type = "button" onClick = {()=>setNumbers("yellow")}>Yellow</button>
-    <UseState />
-    <UseEffect1 />
-    <Effect2/>
-    <Api />
+    {/* <UseState /> */}
+    {/* <UseEffect1 /> */}
+    {/* <Effect2/> */}
+    {/* <Api /> */}
+    <ContextReact />
+    <ContextReact1 />
     <Ref />
+    {/* <RefName /> */}
     </div>
     
   );
