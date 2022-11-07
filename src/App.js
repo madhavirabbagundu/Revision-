@@ -7,6 +7,7 @@ import Effect2 from './Components/Effect2'
 import RefName from "./Components/RefName";
 import { ContextReact } from "./Components/ContextReact";
 import { ContextReact1 } from './Components/ContextReact1'
+import  { Todo }   from './Components/Todo'
 function App() {
   var [numbers,setNumbers] = React.useState("red")
   return (
@@ -20,9 +21,10 @@ function App() {
     {/* <UseEffect1 /> */}
     {/* <Effect2/> */}
     {/* <Api /> */}
-    <ContextReact />
-    <ContextReact1 />
+    {/* <ContextReact /> */}
+    {/* <ContextReact1 /> */}
     <Ref />
+    <Todo />
     {/* <RefName /> */}
     </div>
     
